@@ -6,8 +6,6 @@ class Driver {
 
   yearsExperienceFromBeginningOf(year) {
     let now = new Date().getFullYear(year)
-    console.log(now)
-    console.log(this.startDate)
     return(now - this.startDate.getFullYear()-1)
   }
 }
@@ -24,6 +22,6 @@ class Route {
   }
 
   estimatedTime() {
-    
+
   }
 }
