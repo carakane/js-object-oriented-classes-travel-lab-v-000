@@ -24,7 +24,7 @@ class Route {
   }
 
   estimatedTime() {
-    return (blocksTravelled()/3)
+    console.log(blocksTravelled())
 
   }
 }
