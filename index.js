@@ -8,6 +8,6 @@ class Driver {
     let now = new Date().getFullYear(year)
     console.log(now)
     console.log(this.startDate)
-    return(now - this.startDate.getFullYear())
+    return(now - this.startDate.getFullYear()-1)
   }
 }
