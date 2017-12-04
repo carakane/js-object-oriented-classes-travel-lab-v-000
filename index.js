@@ -17,6 +17,8 @@ class Route {
   }
 
   blocksTravelled() {
+    console.log(this.beginningLocation)
+    
     let streets = this.beginningLocation[1] - this.endingLocation[1]
     console.log(streets)
   }
