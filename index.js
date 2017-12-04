@@ -19,7 +19,8 @@ class Route {
   }
 
   blocksTravelled() {
-    
+    let streets = this.beginningLocation[1] - this.endingLocation[1]
+    console.log(streets)
   }
 
   estimatedTime() {
