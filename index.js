@@ -23,8 +23,7 @@ class Route {
     return(Math.abs(streets) + Math.abs(avenues))
   }
 
-  estimatedTime() {
-    console.log(this.blocksTravelled())
-
+  estimatedTime(peak) {
+    peak === true this.blocksTravelled()/3 : this.blocksTravelled()/2
   }
 }
