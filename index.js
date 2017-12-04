@@ -21,7 +21,7 @@ class Route {
     console.log(this.beginningLocation)
     console.log(this.endingLocation)
     let streets = this.beginningLocation.vertical - this.endingLocation.vertical
-    let avenues =
+    let avenues = eastWest.indexOf(this.beginningLocation.horizontal) - eastWest.indexOf(this.endingLocation.horizontal)
     console.log(streets)
   }
 
