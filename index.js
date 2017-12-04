@@ -17,11 +17,11 @@ class Route {
   }
 
   blocksTravelled() {
+    let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
     console.log(this.beginningLocation)
     console.log(this.endingLocation)
-
-
     let streets = this.beginningLocation.vertical - this.endingLocation.vertical
+    let avenues =
     console.log(streets)
   }
 
