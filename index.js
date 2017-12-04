@@ -23,6 +23,7 @@ class Route {
     let streets = this.beginningLocation.vertical - this.endingLocation.vertical
     let avenues = eastWest.indexOf(this.beginningLocation.horizontal) - eastWest.indexOf(this.endingLocation.horizontal)
     console.log(streets)
+    console.log(avenues)
   }
 
   estimatedTime() {
